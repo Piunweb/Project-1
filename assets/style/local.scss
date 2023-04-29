@@ -1,0 +1,25 @@
+@media screen and (max-width:576px) {
+    
+}
+@media screen and (min-width:577px){
+    .carousel-inner{
+        display: flex;
+    }
+    .carousel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/8);
+    }
+}
+@media screen and (min-width:768px){
+
+}
+@media screen and (min-width:992px){
+
+}
+@media screen and (min-width:1200){
+
+}
+@media screen and (min-width:1400px){
+
+}

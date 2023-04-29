@@ -1,0 +1,433 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+}
+
+li {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+
+body {
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  overflow: hidden;
+}
+
+.long {
+  background: black;
+  height: 40px;
+}
+.long > ul {
+  text-align: center;
+}
+.long > ul > li {
+  color: white;
+}
+
+.main > div {
+  text-align: center;
+  position: relative;
+  height: 40px;
+  overflow: hidden;
+  font-weight: bold;
+}
+.main > div > ul {
+  position: absolute;
+  top: 0;
+  animation: piunik linear normal 10s infinite;
+}
+.main > div > ul > li {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  animation: go linear normal 12s infinite;
+}
+
+@keyframes go {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes piunik {
+  0% {
+    top: 0;
+  }
+  23% {
+    top: 0;
+  }
+  27% {
+    top: -40px;
+  }
+  48% {
+    top: -40px;
+  }
+  52% {
+    top: -80px;
+  }
+  73% {
+    top: -80px;
+  }
+  77% {
+    top: -120px;
+  }
+  100% {
+    top: -120px;
+  }
+}
+.help {
+  display: flex;
+  justify-content: end;
+}
+.help > ul {
+  height: auto;
+}
+.help > ul > li {
+  color: rgb(143, 141, 141);
+  font-size: 10px;
+}
+.help > ul > li > a {
+  white-space: nowrap;
+}
+
+.menu > figure {
+  height: auto;
+}
+.menu > figure > img {
+  width: 60px;
+  height: 60px;
+}
+.menu > .mega > nav > ul {
+  position: relative;
+}
+.menu > .mega > nav > ul > li:nth-child(1):hover .dropdown-menu {
+  display: inline-block;
+}
+.menu > .mega > nav > ul > li:nth-child(2):hover .dropdown-menu {
+  display: inline-block;
+}
+.menu > .mega > nav > ul > li:nth-child(3):hover .dropdown-menu {
+  display: inline-block;
+}
+.menu > .mega > nav > ul > li > a {
+  padding-bottom: 20px;
+  white-space: nowrap;
+}
+.menu > .mega > nav > ul > li > a:nth-child(1) {
+  font-weight: bold;
+}
+.menu > .mega > nav > ul > li > a:nth-child(2) {
+  font-weight: bold;
+}
+.menu > .mega > nav > ul > li > a:nth-child(3) {
+  font-weight: bold;
+}
+.menu > .mega > nav > ul > li > a:hover {
+  border-bottom: 3px solid black;
+  color: black;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.inp {
+  height: 40px;
+}
+.inp > input {
+  width: 150px;
+  height: 35px;
+  background: rgb(236, 234, 234);
+  color: black;
+  border: none;
+  padding: 10px;
+}
+.inp > button {
+  height: 35px;
+  border: none;
+  background: rgb(236, 234, 234);
+  font-weight: bold;
+}
+.inp > ul > li {
+  padding: 0 5px;
+}
+.inp > ul > li > a > i {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.trend {
+  white-space: nowrap;
+}
+
+.dropdown-hover > .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+.list-group > li:nth-child(1) {
+  font-weight: bold;
+}
+.list-group > li > a:hover {
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+#pic {
+  background-image: url(../img/ss23-march-mid-season-sale-firstday-onsite-large-mh-d_tcm221-1004362.jpg);
+  background-size: cover;
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.shop1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  font-weight: bold;
+  box-shadow: 3px 6px 0px 0px rgb(0, 0, 0);
+}
+
+.shop2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  font-weight: bold;
+  box-shadow: 3px 6px 0px 0px rgb(0, 0, 0);
+}
+
+.shop3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  font-weight: bold;
+  box-shadow: 3px 6px 0px 0px rgb(0, 0, 0);
+}
+
+.text {
+  width: 400px;
+  height: 50px;
+  color: white;
+}
+
+.spring {
+  margin-top: 100px;
+  color: white;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 15px;
+}
+.image > a {
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+  text-decoration: underline;
+}
+
+.carousel-inner {
+  display: flex;
+  padding: 16px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  margin: 8px;
+}
+.card:hover .money {
+  bottom: -5px;
+}
+.card:hover {
+  border: 1px solid black;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+.img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.trend {
+  color: rgb(207, 203, 203);
+}
+.trend:hover {
+  color: rgb(207, 203, 203);
+}
+
+.view {
+  text-decoration: underline;
+  margin: 20px;
+  font-size: 15px;
+}
+
+.money {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: -38px;
+  left: 20px;
+  transition: 0.6s;
+}
+
+.heart {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.card-text {
+  color: gray;
+}
+
+.image2 {
+  width: 250px;
+  height: 400px;
+}
+
+.shop {
+  position: absolute;
+  bottom: 0;
+  text-decoration: underline;
+}
+.shop:hover {
+  background-color: black;
+  color: white;
+}
+
+.quote {
+  position: relative;
+  width: 250px;
+  height: 550px;
+  margin: 10px;
+}
+
+.story {
+  width: 250px;
+  height: 200px;
+}
+
+.about {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  border: 1px solid rgb(0, 0, 0);
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.more1 {
+  margin-left: 130px;
+}
+
+.pop {
+  color: black;
+  font-style: unset;
+  border-bottom: 1px solid black;
+}
+.pop:hover {
+  border-bottom: 5px solid black;
+}
+
+.join {
+  background-color: rgb(233, 227, 228);
+}
+
+.sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: rgb(231, 231, 6);
+}
+
+.free {
+  color: black;
+  white-space: nowrap;
+}
+
+.link {
+  font-weight: bold;
+  margin: 15px;
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  box-shadow: 3px 6px 0px 0px rgb(255, 255, 255);
+}
+
+.extra {
+  background-color: black;
+}
+
+.foot {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer {
+  font-size: 15px;
+}
+.footer > a {
+  white-space: nowrap;
+  margin: 5px;
+}
+.footer > a:hover {
+  border-bottom: 1px solid black;
+}
+
+.icons {
+  text-align: center;
+  padding: 5px;
+}
+
+.mini {
+  color: white;
+  background-color: rgb(39, 38, 38);
+}
+
+.done {
+  color: white;
+  font-size: 10px;
+  background-color: rgb(39, 38, 38);
+  white-space: nowrap;
+}
+
+.cookie {
+  border-right: 1px solid white;
+}
+.cookie:nth-child(5) {
+  border-right: none;
+}/*# sourceMappingURL=global.css.map */

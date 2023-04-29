@@ -1,0 +1,10 @@
+@media screen and (min-width: 577px) {
+  .carousel-inner {
+    display: flex;
+  }
+  .carousel-item {
+    display: block;
+    margin-right: 0;
+    flex: 0 0 12.5%;
+  }
+}/*# sourceMappingURL=local.css.map */
